@@ -27,8 +27,8 @@ values
 
 insert into users (username, password, email)
 values
-('user', '$2y$12$4g1SOm4vGFSF/CbT84nOzOyygKSuTtRshecj7HYOCC1xUPjhkVPWG', 'bob_johnson@gmail.com'),
-('admin', '$2y$12$4g1SOm4vGFSF/CbT84nOzOyygKSuTtRshecj7HYOCC1xUPjhkVPWG', 'john_johnson@gmail.com');
+('user', 'user', 'user@gmail.com'),
+('admin', 'admin', 'admin@gmail.com');
 
 insert into users_roles (user_id, role_id)
 values
@@ -44,7 +44,7 @@ create table categories (
 
 insert into categories (title)
 values
-('Food');
+('product');
 
 create table products (
     id                              bigserial primary key,
@@ -57,9 +57,9 @@ create table products (
 
 insert into products (title, price, category_id)
 values
-('Bread', 25.50, 1),
-('Milk', 80.40, 1),
-('Cheese', 325.00, 1);
+('product1', 100, 1),
+('product2', 200, 1),
+('product3', 300, 1);
 
 create table orders (
     id                              bigserial primary key,

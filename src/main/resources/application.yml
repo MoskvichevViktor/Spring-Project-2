@@ -1,13 +1,13 @@
 server:
-  port: 8189
+  port: 8080
   servlet:
-    context-path: /market
+    context-path:
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:mydatabase;MODE=PostgreSQL
-    username: sa
-    password:
+    url:
+    username: root
+    password: 712459
   jpa:
     show-sql: true
     properties:

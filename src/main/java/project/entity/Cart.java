@@ -39,7 +39,4 @@ public class Cart implements Serializable {
         }
     }
 
-//    public List<OrderItem> getItems() {
-//        return Collections.unmodifiableList(items);
-//    }
 }

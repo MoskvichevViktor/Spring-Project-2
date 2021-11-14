@@ -9,7 +9,7 @@ import project.service.CartService;
 
 
 @RestController
-@RequestMapping("/api/v1/cart")
+@RequestMapping("/api/cart")
 @RequiredArgsConstructor
 @Slf4j
 public class CartController {
